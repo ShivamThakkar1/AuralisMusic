@@ -11,8 +11,7 @@ async function stop(client, interaction, lang) {
                 .setColor('#ff0000')
                 .setAuthor({ 
                     name: lang.stop.embed.noActivePlayer, 
-                    iconURL: musicIcons.alertIcon,
-                    url: config.SupportServer
+                    iconURL: musicIcons.alertIcon
                 })
                 .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.stop.embed.noActivePlayerDescription);
@@ -28,8 +27,7 @@ async function stop(client, interaction, lang) {
             .setColor(config.embedColor)
             .setAuthor({ 
                 name: lang.stop.embed.musicHalted, 
-                iconURL: musicIcons.stopIcon,
-                url: config.SupportServer
+                iconURL: musicIcons.stopIcon
             })
             .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
             .setDescription(lang.stop.embed.musicHaltedDescription);
@@ -42,8 +40,7 @@ async function stop(client, interaction, lang) {
             .setColor('#ff0000')
             .setAuthor({ 
                 name: lang.stop.embed.error, 
-                iconURL: musicIcons.alertIcon,
-                url: config.SupportServer
+                iconURL: musicIcons.alertIcon
             })
             .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
             .setDescription(lang.stop.embed.errorDescription);

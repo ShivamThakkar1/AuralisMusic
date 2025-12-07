@@ -51,8 +51,7 @@ async function play(client, interaction, lang) {
                 .setColor('#ff0000')
                 .setAuthor({
                     name: lang.play.embed.error,
-                    iconURL: musicIcons.alertIcon,
-                    url: config.SupportServer
+                    iconURL: musicIcons.alertIcon
                 })
                 .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noVoiceChannel);
@@ -66,8 +65,7 @@ async function play(client, interaction, lang) {
                 .setColor('#ff0000')
                 .setAuthor({
                     name: lang.play.embed.error,
-                    iconURL: musicIcons.alertIcon,
-                    url: config.SupportServer
+                    iconURL: musicIcons.alertIcon
                 })
                 .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noLavalinkNodes);
@@ -130,8 +128,7 @@ async function play(client, interaction, lang) {
                 .setColor(config.embedColor)
                 .setAuthor({ 
                     name: lang.play.embed.error,
-                    iconURL: musicIcons.alertIcon,
-                    url: config.SupportServer
+                    iconURL: musicIcons.alertIcon
                 })
                 .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noResults);
@@ -160,8 +157,7 @@ async function play(client, interaction, lang) {
         .setColor(config.embedColor)
         .setAuthor({
             name: lang.play.embed.requestUpdated,
-            iconURL: musicIcons.beats2Icon,
-            url: config.SupportServer
+            iconURL: musicIcons.beats2Icon
         })
         .setDescription(lang.play.embed.successProcessed)
         .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
